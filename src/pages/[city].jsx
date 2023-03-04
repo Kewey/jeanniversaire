@@ -113,15 +113,18 @@ export default function Home() {
           <div className="border border-red p-4 mt-4 rounded-xl">
             <ul>
               <li>
-                📅 Vendredi 24 (dès 18h) -> Dimanche 26 Mars (avant 11h) 📍 193
-                rue des combeaux, 24650 Chancelade 🧳 Emmène des draps de lit 2
-                places et ta serviette de bain 🤑 Une participation financière
-                de 20€ pour deux journées/soirées de plaisir
+                📅 Vendredi 24 (dès 18h) -&gt; Dimanche 26 Mars (avant 11h)
               </li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>📍 193 rue des combeaux, 24650 Chancelade</li>
+              <li>
+                🧳 Emmène des draps de lit 2 places et ta serviette de bain
+              </li>
+              <li>
+                🤑 Une participation financière de 20€ pour deux
+                journées/soirées de plaisir
+              </li>
             </ul>
+            <a href="#">🐀 20€ stp 🐀</a>
           </div>
         </section>
       </main>
