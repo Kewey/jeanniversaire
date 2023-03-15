@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+import '../styles/globals.css'
 import { Rubik, Rubik_Beastly } from 'next/font/google'
 
 const rubik = Rubik({

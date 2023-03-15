@@ -6,4 +6,8 @@
   h2 {
     @apply text-center text-3xl font-black;
   }
+
+  h3 {
+    @apply font-medium mb-1;
+  }
 }
