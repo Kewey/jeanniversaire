@@ -10,20 +10,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --accent: #e77bad;
+    --background: #fff7fb;
+    --foreground: 255, 255, 255;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--foreground);
+  background: url('/bg.jpg') var(--background);
+  box-shadow: inset 0 0 22rem 3rem var(--accent);
 }
 
 @layer utilities {
