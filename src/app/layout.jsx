@@ -1,7 +1,7 @@
 import { Kalam } from "next/font/google";
 import "./globals.css";
 
-const kalam = Kalam({ subsets: ["latin"], weight: ["400", "700"]});
+const kalam = Kalam({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata = {
   title: "J'ai 25 ans et 3 ans d'experience !",
@@ -11,7 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head><meta name="theme-color" content="#e77bad"></meta></head>
       <body className={kalam.className}>{children}</body>
-    </html>
+    </html >
   );
 }

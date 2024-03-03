@@ -17,9 +17,12 @@
 }
 
 body {
+  display: block;
   color: var(--foreground);
-  background: url('/bg.jpg') var(--background);
-  box-shadow: inset 0 0 22rem 3rem var(--accent);
+  background-color: var(--background);
+  background-image: url('/bg.jpg');
+  background-repeat: repeat;
+  /* box-shadow: 0 0 22rem 3rem #e77bad inset; */
 }
 
 @layer utilities {

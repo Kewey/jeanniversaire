@@ -3,7 +3,7 @@ import FormInvite from "./_components/form-invite";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between py-14">
+    <main className="flex min-h-screen flex-col items-center justify-between py-14 shadow-[0_0_6rem_3.5rem_#e77bad_inset] md:shadow-[0_0_22rem_3rem_#e77bad_inset]">
       <div className="max-w-80">
         <div className="relative">
           <Image src="/diddle-hello.png" className="absolute left-[200px] bottom-8" width={125} height={108} />
